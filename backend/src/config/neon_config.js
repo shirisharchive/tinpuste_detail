@@ -1,3 +1,5 @@
+require("dotenv").config({ override: true });
+
 const { Pool } = require("pg");
 
 const DB_URL = (process.env.PG_URL || process.env.DB_URL || "")

@@ -8,42 +8,42 @@ module.exports = {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       name: {
         type: Sequelize.STRING(50),
-        allowNull: false
+        allowNull: false,
       },
       date_of_birth: {
         type: Sequelize.DATEONLY,
-        allowNull: false
+        allowNull: false,
       },
       father_name: {
         type: Sequelize.STRING(50),
-        allowNull: false
+        allowNull: false,
       },
       mother_name: {
         type: Sequelize.STRING(50),
-        allowNull: false
+        allowNull: false,
       },
       grandfather_name: {
         type: Sequelize.STRING(50),
-        allowNull: false
+        allowNull: false,
       },
       grandmother_name: {
         type: Sequelize.STRING(50),
-        allowNull: false
+        allowNull: false,
       },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,
-        defaultValue: Sequelize.NOW
+        defaultValue: Sequelize.NOW,
       },
       updatedAt: {
         allowNull: false,
         type: Sequelize.DATE,
-        defaultValue: Sequelize.NOW
-      }
+        defaultValue: Sequelize.NOW,
+      },
     });
   },
 

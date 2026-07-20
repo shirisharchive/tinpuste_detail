@@ -5,6 +5,10 @@ class serviceToModel {
         return await Tinpuste.create(data);
     }
 
+    getAllData = async () => {
+        return await Tinpuste.findAll({ order: [['createdAt', 'DESC']] });
+    }
+
     deleteData = async (id) => {
         const record = await Tinpuste.findByPk(id);
         if (!record) return null;

@@ -1,0 +1,655 @@
+======== Resolving module 'react/jsx-runtime' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/main.tsx'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/package.json' does not exist.
+Found 'package.json' at 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/package.json'.
+Loading module 'react/jsx-runtime' from 'node_modules' folder, target file types: TypeScript, JavaScript, Declaration, JSON.
+Searching all ancestor node_modules directories for preferred extensions: TypeScript, Declaration.
+Directory 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/node_modules' does not exist, skipping all lookups in it.
+Found 'package.json' at 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react/package.json'.
+Entering conditional exports.
+Saw non-matching condition 'react-server'.
+Matched 'exports' condition 'default'.
+Using 'exports' subpath './jsx-runtime' with target './jsx-runtime.js'.
+File name 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react/jsx-runtime.js' has a '.js' extension - stripping it.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react/jsx-runtime.ts' does not exist.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react/jsx-runtime.tsx' does not exist.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react/jsx-runtime.d.ts' does not exist.
+Failed to resolve under condition 'default'.
+Exiting conditional exports.
+Export specifier './jsx-runtime' does not exist in package.json scope at path 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react'.
+Found 'package.json' at 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/package.json'.
+Entering conditional exports.
+Saw non-matching condition 'types@<=5.0'.
+Matched 'exports' condition 'types'.
+Entering conditional exports.
+Matched 'exports' condition 'default'.
+Using 'exports' subpath './jsx-runtime' with target './jsx-runtime.d.ts'.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/jsx-runtime.d.ts' exists - use it as a name resolution result.
+'package.json' has a 'peerDependencies' field.
+Resolving real path for 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react', result 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react'.
+Resolved under condition 'default'.
+Exiting conditional exports.
+Resolved under condition 'types'.
+Exiting conditional exports.
+Resolving real path for 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/jsx-runtime.d.ts', result 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/jsx-runtime.d.ts'.
+======== Module name 'react/jsx-runtime' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/jsx-runtime.d.ts' with Package ID '@types/react/jsx-runtime.d.ts@19.2.17'. ========
+======== Resolving module 'react' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/main.tsx'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/package.json' exists according to earlier cached lookups.
+Loading module 'react' from 'node_modules' folder, target file types: TypeScript, JavaScript, Declaration, JSON.
+Searching all ancestor node_modules directories for preferred extensions: TypeScript, Declaration.
+Directory 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/node_modules' does not exist, skipping all lookups in it.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react/package.json' exists according to earlier cached lookups.
+Entering conditional exports.
+Saw non-matching condition 'react-server'.
+Matched 'exports' condition 'default'.
+Using 'exports' subpath '.' with target './index.js'.
+File name 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react/index.js' has a '.js' extension - stripping it.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react/index.ts' does not exist.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react/index.tsx' does not exist.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react/index.d.ts' does not exist.
+Failed to resolve under condition 'default'.
+Exiting conditional exports.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/package.json' exists according to earlier cached lookups.
+Entering conditional exports.
+Saw non-matching condition 'types@<=5.0'.
+Matched 'exports' condition 'types'.
+Entering conditional exports.
+Matched 'exports' condition 'default'.
+Using 'exports' subpath '.' with target './index.d.ts'.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/index.d.ts' exists - use it as a name resolution result.
+Resolved under condition 'default'.
+Exiting conditional exports.
+Resolved under condition 'types'.
+Exiting conditional exports.
+Resolving real path for 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/index.d.ts', result 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/index.d.ts'.
+======== Module name 'react' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/index.d.ts' with Package ID '@types/react/index.d.ts@19.2.17'. ========
+======== Resolving module 'react-dom/client' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/main.tsx'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/package.json' exists according to earlier cached lookups.
+Loading module 'react-dom/client' from 'node_modules' folder, target file types: TypeScript, JavaScript, Declaration, JSON.
+Searching all ancestor node_modules directories for preferred extensions: TypeScript, Declaration.
+Directory 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/node_modules' does not exist, skipping all lookups in it.
+Found 'package.json' at 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-dom/package.json'.
+Entering conditional exports.
+Saw non-matching condition 'react-server'.
+Matched 'exports' condition 'default'.
+Using 'exports' subpath './client' with target './client.js'.
+File name 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-dom/client.js' has a '.js' extension - stripping it.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-dom/client.ts' does not exist.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-dom/client.tsx' does not exist.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-dom/client.d.ts' does not exist.
+Failed to resolve under condition 'default'.
+Exiting conditional exports.
+Export specifier './client' does not exist in package.json scope at path 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-dom'.
+Found 'package.json' at 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react-dom/package.json'.
+Entering conditional exports.
+Matched 'exports' condition 'types'.
+Entering conditional exports.
+Matched 'exports' condition 'default'.
+Using 'exports' subpath './client' with target './client.d.ts'.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react-dom/client.d.ts' exists - use it as a name resolution result.
+'package.json' has a 'peerDependencies' field.
+Resolving real path for 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react-dom', result 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react-dom'.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/package.json' exists according to earlier cached lookups.
+Found peerDependency '@types/react' with '19.2.17' version.
+Resolved under condition 'default'.
+Exiting conditional exports.
+Resolved under condition 'types'.
+Exiting conditional exports.
+Resolving real path for 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react-dom/client.d.ts', result 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react-dom/client.d.ts'.
+======== Module name 'react-dom/client' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react-dom/client.d.ts' with Package ID '@types/react-dom/client.d.ts@19.2.3+@types/react@19.2.17'. ========
+======== Resolving module './config/routing.tsx' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/main.tsx'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/config/routing.tsx', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/config/routing.tsx' has a '.tsx' extension - stripping it.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/config/routing.tsx' exists - use it as a name resolution result.
+======== Module name './config/routing.tsx' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/config/routing.tsx'. ========
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/package.json' exists according to earlier cached lookups.
+======== Resolving module './' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/jsx-runtime.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/', target file types: TypeScript, JavaScript, Declaration, JSON.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/package.json' exists according to earlier cached lookups.
+'package.json' has a 'typesVersions' field with version-specific path mappings.
+'package.json' does not have a 'typesVersions' entry that matches version '6.0'.
+'package.json' does not have a 'typings' field.
+'package.json' has 'types' field 'index.d.ts' that references 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/index.d.ts'.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/index.d.ts' exists - use it as a name resolution result.
+======== Module name './' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/index.d.ts' with Package ID '@types/react/ndex.d.ts@19.2.17'. ========
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/package.json' exists according to earlier cached lookups.
+======== Resolving module 'csstype' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/package.json' exists according to earlier cached lookups.
+Loading module 'csstype' from 'node_modules' folder, target file types: TypeScript, JavaScript, Declaration, JSON.
+Searching all ancestor node_modules directories for preferred extensions: TypeScript, Declaration.
+Directory 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/node_modules' does not exist, skipping all lookups in it.
+Directory 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+Found 'package.json' at 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/csstype/package.json'.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/csstype.ts' does not exist.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/csstype.tsx' does not exist.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/csstype.d.ts' does not exist.
+'package.json' does not have a 'typesVersions' field.
+'package.json' does not have a 'typings' field.
+'package.json' has 'types' field 'index.d.ts' that references 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/csstype/index.d.ts'.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/csstype/index.d.ts' exists - use it as a name resolution result.
+'package.json' does not have a 'peerDependencies' field.
+Resolving real path for 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/csstype/index.d.ts', result 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/csstype/index.d.ts'.
+======== Module name 'csstype' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/csstype/index.d.ts' with Package ID 'csstype/index.d.ts@3.2.3'. ========
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/csstype/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react-dom/package.json' exists according to earlier cached lookups.
+======== Resolving module 'react' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react-dom/client.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'require', 'types'.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react-dom/package.json' exists according to earlier cached lookups.
+Loading module 'react' from 'node_modules' folder, target file types: TypeScript, JavaScript, Declaration, JSON.
+Searching all ancestor node_modules directories for preferred extensions: TypeScript, Declaration.
+Directory 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react-dom/node_modules' does not exist, skipping all lookups in it.
+Directory 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react/package.json' exists according to earlier cached lookups.
+Entering conditional exports.
+Saw non-matching condition 'react-server'.
+Matched 'exports' condition 'default'.
+Using 'exports' subpath '.' with target './index.js'.
+File name 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react/index.js' has a '.js' extension - stripping it.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react/index.ts' does not exist.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react/index.tsx' does not exist.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react/index.d.ts' does not exist.
+Failed to resolve under condition 'default'.
+Exiting conditional exports.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/package.json' exists according to earlier cached lookups.
+Entering conditional exports.
+Saw non-matching condition 'types@<=5.0'.
+Matched 'exports' condition 'types'.
+Entering conditional exports.
+Matched 'exports' condition 'default'.
+Using 'exports' subpath '.' with target './index.d.ts'.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/index.d.ts' exists - use it as a name resolution result.
+Resolved under condition 'default'.
+Exiting conditional exports.
+Resolved under condition 'types'.
+Exiting conditional exports.
+Resolving real path for 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/index.d.ts', result 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/index.d.ts'.
+======== Module name 'react' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/index.d.ts' with Package ID '@types/react/index.d.ts@19.2.17'. ========
+======== Resolving module 'react/jsx-runtime' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/config/routing.tsx'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/config/package.json' does not exist.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/package.json' exists according to earlier cached lookups.
+Loading module 'react/jsx-runtime' from 'node_modules' folder, target file types: TypeScript, JavaScript, Declaration, JSON.
+Searching all ancestor node_modules directories for preferred extensions: TypeScript, Declaration.
+Directory 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/config/node_modules' does not exist, skipping all lookups in it.
+Resolution for module 'react/jsx-runtime' was found in cache from location 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src'.
+======== Module name 'react/jsx-runtime' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/jsx-runtime.d.ts' with Package ID '@types/react/jsx-runtime.d.ts@19.2.17'. ========
+======== Resolving module 'react-router-dom' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/config/routing.tsx'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/config/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/package.json' exists according to earlier cached lookups.
+Loading module 'react-router-dom' from 'node_modules' folder, target file types: TypeScript, JavaScript, Declaration, JSON.
+Searching all ancestor node_modules directories for preferred extensions: TypeScript, Declaration.
+Directory 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/config/node_modules' does not exist, skipping all lookups in it.
+Directory 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/node_modules' does not exist, skipping all lookups in it.
+Found 'package.json' at 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router-dom/package.json'.
+Entering conditional exports.
+Saw non-matching condition 'node'.
+Matched 'exports' condition 'import'.
+Entering conditional exports.
+Matched 'exports' condition 'types'.
+Using 'exports' subpath '.' with target './dist/index.d.mts'.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router-dom/dist/index.d.mts' exists - use it as a name resolution result.
+'package.json' has a 'peerDependencies' field.
+Resolving real path for 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router-dom', result 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router-dom'.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react/package.json' exists according to earlier cached lookups.
+Found peerDependency 'react' with '19.2.7' version.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-dom/package.json' exists according to earlier cached lookups.
+Found peerDependency 'react-dom' with '19.2.7' version.
+Resolved under condition 'types'.
+Exiting conditional exports.
+Resolved under condition 'import'.
+Exiting conditional exports.
+Resolving real path for 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router-dom/dist/index.d.mts', result 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router-dom/dist/index.d.mts'.
+======== Module name 'react-router-dom' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router-dom/dist/index.d.mts' with Package ID 'react-router-dom/dist/index.d.mts@7.18.1+react@19.2.7+react-dom@19.2.7'. ========
+======== Resolving module 'react-router/dom' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router-dom/dist/index.d.mts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router-dom/dist/package.json' does not exist.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router-dom/package.json' exists according to earlier cached lookups.
+Loading module 'react-router/dom' from 'node_modules' folder, target file types: TypeScript, JavaScript, Declaration, JSON.
+Searching all ancestor node_modules directories for preferred extensions: TypeScript, Declaration.
+Directory 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router-dom/dist/node_modules' does not exist, skipping all lookups in it.
+Directory 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router-dom/node_modules' does not exist, skipping all lookups in it.
+Found 'package.json' at 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/package.json'.
+Entering conditional exports.
+Saw non-matching condition 'node'.
+Saw non-matching condition 'module'.
+Matched 'exports' condition 'import'.
+Entering conditional exports.
+Matched 'exports' condition 'types'.
+Using 'exports' subpath './dom' with target './dist/development/dom-export.d.mts'.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/dom-export.d.mts' exists - use it as a name resolution result.
+'package.json' has a 'peerDependencies' field.
+Resolving real path for 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router', result 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router'.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react/package.json' exists according to earlier cached lookups.
+Found peerDependency 'react' with '19.2.7' version.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-dom/package.json' exists according to earlier cached lookups.
+Found peerDependency 'react-dom' with '19.2.7' version.
+Resolved under condition 'types'.
+Exiting conditional exports.
+Resolved under condition 'import'.
+Exiting conditional exports.
+Resolving real path for 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/dom-export.d.mts', result 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/dom-export.d.mts'.
+======== Module name 'react-router/dom' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/dom-export.d.mts' with Package ID 'react-router/dist/development/dom-export.d.mts@7.18.1+react@19.2.7+react-dom@19.2.7'. ========
+======== Resolving module 'react-router' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router-dom/dist/index.d.mts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router-dom/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router-dom/package.json' exists according to earlier cached lookups.
+Loading module 'react-router' from 'node_modules' folder, target file types: TypeScript, JavaScript, Declaration, JSON.
+Searching all ancestor node_modules directories for preferred extensions: TypeScript, Declaration.
+Directory 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router-dom/dist/node_modules' does not exist, skipping all lookups in it.
+Directory 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router-dom/node_modules' does not exist, skipping all lookups in it.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/package.json' exists according to earlier cached lookups.
+Entering conditional exports.
+Saw non-matching condition 'react-server'.
+Saw non-matching condition 'node'.
+Saw non-matching condition 'module'.
+Matched 'exports' condition 'import'.
+Entering conditional exports.
+Matched 'exports' condition 'types'.
+Using 'exports' subpath '.' with target './dist/development/index.d.mts'.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/index.d.mts' exists - use it as a name resolution result.
+Resolved under condition 'types'.
+Exiting conditional exports.
+Resolved under condition 'import'.
+Exiting conditional exports.
+Resolving real path for 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/index.d.mts', result 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/index.d.mts'.
+======== Module name 'react-router' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/index.d.mts' with Package ID 'react-router/dist/development/index.d.mts@7.18.1+react@19.2.7+react-dom@19.2.7'. ========
+======== Resolving module 'react' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/dom-export.d.mts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/package.json' does not exist.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/package.json' does not exist.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/package.json' exists according to earlier cached lookups.
+Loading module 'react' from 'node_modules' folder, target file types: TypeScript, JavaScript, Declaration, JSON.
+Searching all ancestor node_modules directories for preferred extensions: TypeScript, Declaration.
+Directory 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/node_modules' does not exist, skipping all lookups in it.
+Directory 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/node_modules' does not exist, skipping all lookups in it.
+Directory 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/node_modules' does not exist, skipping all lookups in it.
+Resolution for module 'react' was found in cache from location 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project'.
+======== Module name 'react' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/index.d.ts' with Package ID '@types/react/index.d.ts@19.2.17'. ========
+======== Resolving module './context-CeD5LmaF.mjs' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/dom-export.d.mts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/context-CeD5LmaF.mjs', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/context-CeD5LmaF.mjs' has a '.mjs' extension - stripping it.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/context-CeD5LmaF.mts' does not exist.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/context-CeD5LmaF.d.mts' exists - use it as a name resolution result.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/package.json' exists according to earlier cached lookups.
+======== Module name './context-CeD5LmaF.mjs' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/context-CeD5LmaF.d.mts' with Package ID 'react-router/dist/development/context-CeD5LmaF.d.mts@7.18.1+react@19.2.7+react-dom@19.2.7'. ========
+======== Resolving module './browser-DBmQ1yAR.mjs' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/dom-export.d.mts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/browser-DBmQ1yAR.mjs', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/browser-DBmQ1yAR.mjs' has a '.mjs' extension - stripping it.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/browser-DBmQ1yAR.mts' does not exist.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/browser-DBmQ1yAR.d.mts' exists - use it as a name resolution result.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/package.json' exists according to earlier cached lookups.
+======== Module name './browser-DBmQ1yAR.mjs' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/browser-DBmQ1yAR.d.mts' with Package ID 'react-router/dist/development/browser-DBmQ1yAR.d.mts@7.18.1+react@19.2.7+react-dom@19.2.7'. ========
+======== Resolving module './data-DEjBmEfD.mjs' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/dom-export.d.mts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/data-DEjBmEfD.mjs', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/data-DEjBmEfD.mjs' has a '.mjs' extension - stripping it.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/data-DEjBmEfD.mts' does not exist.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/data-DEjBmEfD.d.mts' exists - use it as a name resolution result.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/package.json' exists according to earlier cached lookups.
+======== Module name './data-DEjBmEfD.mjs' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/data-DEjBmEfD.d.mts' with Package ID 'react-router/dist/development/data-DEjBmEfD.d.mts@7.18.1+react@19.2.7+react-dom@19.2.7'. ========
+======== Resolving module './data-DEjBmEfD.mjs' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/context-CeD5LmaF.d.mts'. ========
+Resolution for module './data-DEjBmEfD.mjs' was found in cache from location 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development'.
+======== Module name './data-DEjBmEfD.mjs' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/data-DEjBmEfD.d.mts' with Package ID 'react-router/dist/development/data-DEjBmEfD.d.mts@7.18.1+react@19.2.7+react-dom@19.2.7'. ========
+======== Resolving module 'react' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/context-CeD5LmaF.d.mts'. ========
+Resolution for module 'react' was found in cache from location 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development'.
+======== Module name 'react' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/index.d.ts' with Package ID '@types/react/index.d.ts@19.2.17'. ========
+======== Resolving module 'react' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/data-DEjBmEfD.d.mts'. ========
+Resolution for module 'react' was found in cache from location 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development'.
+======== Module name 'react' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/index.d.ts' with Package ID '@types/react/index.d.ts@19.2.17'. ========
+======== Resolving module 'react' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/browser-DBmQ1yAR.d.mts'. ========
+Resolution for module 'react' was found in cache from location 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development'.
+======== Module name 'react' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/index.d.ts' with Package ID '@types/react/index.d.ts@19.2.17'. ========
+======== Resolving module './context-CeD5LmaF.mjs' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/browser-DBmQ1yAR.d.mts'. ========
+Resolution for module './context-CeD5LmaF.mjs' was found in cache from location 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development'.
+======== Module name './context-CeD5LmaF.mjs' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/context-CeD5LmaF.d.mts' with Package ID 'react-router/dist/development/context-CeD5LmaF.d.mts@7.18.1+react@19.2.7+react-dom@19.2.7'. ========
+======== Resolving module './data-DEjBmEfD.mjs' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/browser-DBmQ1yAR.d.mts'. ========
+Resolution for module './data-DEjBmEfD.mjs' was found in cache from location 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development'.
+======== Module name './data-DEjBmEfD.mjs' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/data-DEjBmEfD.d.mts' with Package ID 'react-router/dist/development/data-DEjBmEfD.d.mts@7.18.1+react@19.2.7+react-dom@19.2.7'. ========
+======== Resolving module './data-DEjBmEfD.mjs' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/index.d.mts'. ========
+Resolution for module './data-DEjBmEfD.mjs' was found in cache from location 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development'.
+======== Module name './data-DEjBmEfD.mjs' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/data-DEjBmEfD.d.mts' with Package ID 'react-router/dist/development/data-DEjBmEfD.d.mts@7.18.1+react@19.2.7+react-dom@19.2.7'. ========
+======== Resolving module './context-CeD5LmaF.mjs' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/index.d.mts'. ========
+Resolution for module './context-CeD5LmaF.mjs' was found in cache from location 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development'.
+======== Module name './context-CeD5LmaF.mjs' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/context-CeD5LmaF.d.mts' with Package ID 'react-router/dist/development/context-CeD5LmaF.d.mts@7.18.1+react@19.2.7+react-dom@19.2.7'. ========
+======== Resolving module 'react' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/index.d.mts'. ========
+Resolution for module 'react' was found in cache from location 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development'.
+======== Module name 'react' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/index.d.ts' with Package ID '@types/react/index.d.ts@19.2.17'. ========
+======== Resolving module './register-CmkRspdl.mjs' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/index.d.mts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/register-CmkRspdl.mjs', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/register-CmkRspdl.mjs' has a '.mjs' extension - stripping it.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/register-CmkRspdl.mts' does not exist.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/register-CmkRspdl.d.mts' exists - use it as a name resolution result.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/package.json' exists according to earlier cached lookups.
+======== Module name './register-CmkRspdl.mjs' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/register-CmkRspdl.d.mts' with Package ID 'react-router/dist/development/register-CmkRspdl.d.mts@7.18.1+react@19.2.7+react-dom@19.2.7'. ========
+======== Resolving module './index-react-server-client-CACgcj2J.mjs' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/index.d.mts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/index-react-server-client-CACgcj2J.mjs', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/index-react-server-client-CACgcj2J.mjs' has a '.mjs' extension - stripping it.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/index-react-server-client-CACgcj2J.mts' does not exist.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/index-react-server-client-CACgcj2J.d.mts' exists - use it as a name resolution result.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/package.json' exists according to earlier cached lookups.
+======== Module name './index-react-server-client-CACgcj2J.mjs' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/index-react-server-client-CACgcj2J.d.mts' with Package ID 'react-router/dist/development/index-react-server-client-CACgcj2J.d.mts@7.18.1+react@19.2.7+react-dom@19.2.7'. ========
+======== Resolving module 'cookie' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/index.d.mts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/package.json' exists according to earlier cached lookups.
+Loading module 'cookie' from 'node_modules' folder, target file types: TypeScript, JavaScript, Declaration, JSON.
+Searching all ancestor node_modules directories for preferred extensions: TypeScript, Declaration.
+Directory 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/node_modules' does not exist, skipping all lookups in it.
+Directory 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/node_modules' does not exist, skipping all lookups in it.
+Directory 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/node_modules' does not exist, skipping all lookups in it.
+Found 'package.json' at 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/cookie/package.json'.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/cookie.ts' does not exist.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/cookie.tsx' does not exist.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/cookie.d.ts' does not exist.
+'package.json' does not have a 'typesVersions' field.
+'package.json' does not have a 'typings' field.
+'package.json' has 'types' field 'dist/index.d.ts' that references 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/cookie/dist/index.d.ts'.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/cookie/dist/index.d.ts' exists - use it as a name resolution result.
+'package.json' does not have a 'peerDependencies' field.
+Resolving real path for 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/cookie/dist/index.d.ts', result 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/cookie/dist/index.d.ts'.
+======== Module name 'cookie' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/cookie/dist/index.d.ts' with Package ID 'cookie/dist/index.d.ts@1.1.1'. ========
+======== Resolving module './browser-DBmQ1yAR.mjs' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/index.d.mts'. ========
+Resolution for module './browser-DBmQ1yAR.mjs' was found in cache from location 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development'.
+======== Module name './browser-DBmQ1yAR.mjs' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/browser-DBmQ1yAR.d.mts' with Package ID 'react-router/dist/development/browser-DBmQ1yAR.d.mts@7.18.1+react@19.2.7+react-dom@19.2.7'. ========
+======== Resolving module './data-DEjBmEfD.mjs' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/register-CmkRspdl.d.mts'. ========
+Resolution for module './data-DEjBmEfD.mjs' was found in cache from location 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development'.
+======== Module name './data-DEjBmEfD.mjs' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/data-DEjBmEfD.d.mts' with Package ID 'react-router/dist/development/data-DEjBmEfD.d.mts@7.18.1+react@19.2.7+react-dom@19.2.7'. ========
+======== Resolving module './context-CeD5LmaF.mjs' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/index-react-server-client-CACgcj2J.d.mts'. ========
+Resolution for module './context-CeD5LmaF.mjs' was found in cache from location 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development'.
+======== Module name './context-CeD5LmaF.mjs' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/context-CeD5LmaF.d.mts' with Package ID 'react-router/dist/development/context-CeD5LmaF.d.mts@7.18.1+react@19.2.7+react-dom@19.2.7'. ========
+======== Resolving module 'react' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/index-react-server-client-CACgcj2J.d.mts'. ========
+Resolution for module 'react' was found in cache from location 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development'.
+======== Module name 'react' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/index.d.ts' with Package ID '@types/react/index.d.ts@19.2.17'. ========
+======== Resolving module './data-DEjBmEfD.mjs' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/index-react-server-client-CACgcj2J.d.mts'. ========
+Resolution for module './data-DEjBmEfD.mjs' was found in cache from location 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development'.
+======== Module name './data-DEjBmEfD.mjs' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/react-router/dist/development/data-DEjBmEfD.d.mts' with Package ID 'react-router/dist/development/data-DEjBmEfD.d.mts@7.18.1+react@19.2.7+react-dom@19.2.7'. ========
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/cookie/dist/package.json' does not exist.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/cookie/package.json' exists according to earlier cached lookups.
+======== Resolving module 'react/jsx-runtime' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/components/tinpusteCompo.tsx'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/components/package.json' does not exist.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/package.json' exists according to earlier cached lookups.
+Loading module 'react/jsx-runtime' from 'node_modules' folder, target file types: TypeScript, JavaScript, Declaration, JSON.
+Searching all ancestor node_modules directories for preferred extensions: TypeScript, Declaration.
+Directory 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/components/node_modules' does not exist, skipping all lookups in it.
+Resolution for module 'react/jsx-runtime' was found in cache from location 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src'.
+======== Module name 'react/jsx-runtime' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/jsx-runtime.d.ts' with Package ID '@types/react/jsx-runtime.d.ts@19.2.17'. ========
+======== Resolving module 'react/jsx-runtime' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/pages/tinpusteget.tsx'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/pages/package.json' does not exist.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/package.json' exists according to earlier cached lookups.
+Loading module 'react/jsx-runtime' from 'node_modules' folder, target file types: TypeScript, JavaScript, Declaration, JSON.
+Searching all ancestor node_modules directories for preferred extensions: TypeScript, Declaration.
+Directory 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/pages/node_modules' does not exist, skipping all lookups in it.
+Resolution for module 'react/jsx-runtime' was found in cache from location 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src'.
+======== Module name 'react/jsx-runtime' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/jsx-runtime.d.ts' with Package ID '@types/react/jsx-runtime.d.ts@19.2.17'. ========
+======== Resolving module 'react/jsx-runtime' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/pages/tinpusteput.tsx'. ========
+Resolution for module 'react/jsx-runtime' was found in cache from location 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/pages'.
+======== Module name 'react/jsx-runtime' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/jsx-runtime.d.ts' with Package ID '@types/react/jsx-runtime.d.ts@19.2.17'. ========
+======== Resolving module 'react' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/pages/tinpusteput.tsx'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/pages/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/package.json' exists according to earlier cached lookups.
+Loading module 'react' from 'node_modules' folder, target file types: TypeScript, JavaScript, Declaration, JSON.
+Searching all ancestor node_modules directories for preferred extensions: TypeScript, Declaration.
+Directory 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/pages/node_modules' does not exist, skipping all lookups in it.
+Resolution for module 'react' was found in cache from location 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src'.
+======== Module name 'react' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/react/index.d.ts' with Package ID '@types/react/index.d.ts@19.2.17'. ========
+======== Resolving module '../components/tinpusteCompo' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/pages/tinpusteput.tsx'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/components/tinpusteCompo', target file types: TypeScript, JavaScript, Declaration, JSON.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/components/tinpusteCompo.ts' does not exist.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/components/tinpusteCompo.tsx' exists - use it as a name resolution result.
+======== Module name '../components/tinpusteCompo' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/src/components/tinpusteCompo.tsx'. ========
+======== Resolving type reference directive 'vite/client', containing file 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/__inferred type names__.ts', root directory 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types,C:/Users/Dell/Desktop/tinpuste_detail/frontend/node_modules/@types,C:/Users/Dell/Desktop/tinpuste_detail/node_modules/@types,C:/Users/Dell/Desktop/node_modules/@types,C:/Users/Dell/node_modules/@types,C:/Users/node_modules/@types,C:/node_modules/@types'. ========
+Resolving with primary search path 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types, C:/Users/Dell/Desktop/tinpuste_detail/frontend/node_modules/@types, C:/Users/Dell/Desktop/tinpuste_detail/node_modules/@types, C:/Users/Dell/Desktop/node_modules/@types, C:/Users/Dell/node_modules/@types, C:/Users/node_modules/@types, C:/node_modules/@types'.
+Directory 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/node_modules/@types' does not exist, skipping all lookups in it.
+Directory 'C:/Users/Dell/Desktop/tinpuste_detail/node_modules/@types' does not exist, skipping all lookups in it.
+Directory 'C:/Users/Dell/Desktop/node_modules/@types' does not exist, skipping all lookups in it.
+Directory 'C:/Users/Dell/node_modules/@types' does not exist, skipping all lookups in it.
+Directory 'C:/Users/node_modules/@types' does not exist, skipping all lookups in it.
+Directory 'C:/node_modules/@types' does not exist, skipping all lookups in it.
+Looking up in 'node_modules' folder, initial location 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project'.
+Searching all ancestor node_modules directories for preferred extensions: Declaration.
+Found 'package.json' at 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/package.json'.
+Entering conditional exports.
+Matched 'exports' condition 'types'.
+Using 'exports' subpath './client' with target './client.d.ts'.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/client.d.ts' exists - use it as a name resolution result.
+'package.json' has a 'peerDependencies' field.
+Resolving real path for 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite', result 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite'.
+Found 'package.json' at 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/@types/node/package.json'.
+Found peerDependency '@types/node' with '24.13.3' version.
+Failed to find peerDependency '@vitejs/devtools'.
+Failed to find peerDependency 'esbuild'.
+Failed to find peerDependency 'jiti'.
+Failed to find peerDependency 'less'.
+Failed to find peerDependency 'sass'.
+Failed to find peerDependency 'sass-embedded'.
+Failed to find peerDependency 'stylus'.
+Failed to find peerDependency 'sugarss'.
+Failed to find peerDependency 'terser'.
+Failed to find peerDependency 'tsx'.
+Failed to find peerDependency 'yaml'.
+Resolved under condition 'types'.
+Exiting conditional exports.
+Resolving real path for 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/client.d.ts', result 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/client.d.ts'.
+======== Type reference directive 'vite/client' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/client.d.ts' with Package ID 'vite/client.d.ts@8.1.5+@types/node@24.13.3', primary: false. ========
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/types/package.json' does not exist.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/package.json' exists according to earlier cached lookups.
+======== Resolving module './hot.js' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/types/importMeta.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/types/hot.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/types/hot.js' has a '.js' extension - stripping it.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/types/hot.ts' does not exist.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/types/hot.tsx' does not exist.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/types/hot.d.ts' exists - use it as a name resolution result.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/package.json' exists according to earlier cached lookups.
+======== Module name './hot.js' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/types/hot.d.ts' with Package ID 'vite/types/hot.d.ts@8.1.5+@types/node@24.13.3'. ========
+======== Resolving module './importGlob.js' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/types/importMeta.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/types/importGlob.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/types/importGlob.js' has a '.js' extension - stripping it.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/types/importGlob.ts' does not exist.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/types/importGlob.tsx' does not exist.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/types/importGlob.d.ts' exists - use it as a name resolution result.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/package.json' exists according to earlier cached lookups.
+======== Module name './importGlob.js' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/types/importGlob.d.ts' with Package ID 'vite/types/importGlob.d.ts@8.1.5+@types/node@24.13.3'. ========
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/types/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/package.json' exists according to earlier cached lookups.
+======== Resolving module './customEvent.js' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/types/hot.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/types/customEvent.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/types/customEvent.js' has a '.js' extension - stripping it.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/types/customEvent.ts' does not exist.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/types/customEvent.tsx' does not exist.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/types/customEvent.d.ts' exists - use it as a name resolution result.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/package.json' exists according to earlier cached lookups.
+======== Module name './customEvent.js' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/types/customEvent.d.ts' with Package ID 'vite/types/customEvent.d.ts@8.1.5+@types/node@24.13.3'. ========
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/types/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/package.json' exists according to earlier cached lookups.
+======== Resolving module './hmrPayload.js' from 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/types/customEvent.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/types/hmrPayload.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/types/hmrPayload.js' has a '.js' extension - stripping it.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/types/hmrPayload.ts' does not exist.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/types/hmrPayload.tsx' does not exist.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/types/hmrPayload.d.ts' exists - use it as a name resolution result.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/package.json' exists according to earlier cached lookups.
+======== Module name './hmrPayload.js' was successfully resolved to 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/types/hmrPayload.d.ts' with Package ID 'vite/types/hmrPayload.d.ts@8.1.5+@types/node@24.13.3'. ========
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/types/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/types/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/vite/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist.
+Found 'package.json' at 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json'.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/Users/Dell/Desktop/tinpuste_detail/frontend/vite-project/node_modules/typescript/package.json' exists according to earlier cached lookups.
+src/pages/tinpusteput.tsx(2,10): error TS2305: Module '"../components/tinpusteCompo"' has no exported member 'TinpusteCompo'.
+src/pages/tinpusteput.tsx(15,20): error TS7006: Parameter 'e' implicitly has an 'any' type.

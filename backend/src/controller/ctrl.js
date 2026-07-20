@@ -22,6 +22,17 @@ class TinpusteCTRL {
         }
     };
 
+    // --- Read all -----------------------------------------------------
+
+    getAllData = async (req, res, next) => {
+        try {
+            const result = await serviceToModelInstance.getAllData();
+            res.status(200).json(result);
+        } catch (err) {
+            next(err);
+        }
+    };
+
     // --- Delete ---------------------------------------------------------
 
     deleteData = async (req, res, next) => {

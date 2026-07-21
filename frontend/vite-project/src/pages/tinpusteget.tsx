@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { API_BASE_URL } from '../config/api';
 
 type TinpusteRecord = {
@@ -51,6 +52,14 @@ const Get_Tinpuste = () => {
   return (
     <div>
       <h1>Tinpuste records</h1>
+      <nav>
+        <ul>
+          <li><Link to="/put">Put</Link></li>
+          <li><Link to="/update">Update</Link></li>
+          <li><Link to="/delete">Delete</Link></li>
+          <li><Link to="/hook">React Hook Form</Link></li>
+        </ul>
+      </nav>
       {records.length === 0 ? (
         <p>No records found.</p>
       ) : (

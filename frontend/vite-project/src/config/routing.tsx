@@ -3,6 +3,12 @@ import Get_Tinpuste from "../pages/tinpusteget";
 import { Put_Tinpuste } from "../pages/tinpusteput";
 import { Delete_tinpuste } from "../pages/delete";
 import { Update_tinpuste } from "../pages/update";
+import { ReactHook } from "../pages/reactHook";
+import { ReactHookformRevise } from "../pages/reactHookformRevise";
+// import { Parent } from "../pages/parent";
+import { ParentMovie } from "../pages/parentMovie";
+import WaterBottlePage from "../pages/waterBottle";
+
 
 const router = createBrowserRouter([
   {
@@ -20,6 +26,22 @@ const router = createBrowserRouter([
   {
     path: "/update",
     element: <Update_tinpuste />,
+  },
+  {
+    path: "/hook",
+    element: <ReactHook />,
+  },
+  {
+    path: "/re",
+    element: <ReactHookformRevise />,
+  },
+  {
+    path: "/parent",
+    element: <ParentMovie />,
+  },
+  {
+    path:"/me",
+    element:<WaterBottlePage/>
   },
 ]);
 

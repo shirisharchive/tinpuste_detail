@@ -21,6 +21,7 @@ export const ReactHook = () => {
     handleSubmit//handlesubmit le form submit garna lageko
 
    }=useForm<IFormInput>()
+   
    const onSubmit:SubmitHandler<IFormInput>=(data)=>{
     //api call garna lageko
     console.log(data)

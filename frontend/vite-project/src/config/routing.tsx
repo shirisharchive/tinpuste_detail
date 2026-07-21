@@ -8,6 +8,10 @@ import { ReactHookformRevise } from "../pages/reactHookformRevise";
 // import { Parent } from "../pages/parent";
 import { ParentMovie } from "../pages/parentMovie";
 import WaterBottlePage from "../pages/waterBottle";
+import { AuthPage } from "../pages/auth";
+import { Register } from "../pages/register";
+import { Bike } from "../components/bike";
+import { BikeNamePage } from "../pages/bikename";
 
 
 const router = createBrowserRouter([
@@ -43,6 +47,18 @@ const router = createBrowserRouter([
     path:"/me",
     element:<WaterBottlePage/>
   },
+   {
+    path:"/auth",
+    element:<AuthPage/>
+  },
+  {
+    path:"/regi",
+    element:<Register/>
+  },
+  {
+    path:"/bike",
+    element:<BikeNamePage/>
+  }
 ]);
 
 export const RouterConfig = () => {
